@@ -1,5 +1,7 @@
 <?php
 
+use function PHPSTORM_META\type;
+
 echo "Digite um número: \n";
 $numero = fgets(STDIN);
 printf(("O número que digitou é: $numero\n"));
@@ -14,9 +16,9 @@ if ($vezescinco > 50){
 
 
 if(is_int($numero)){
-  printf("\nO número $numero é inteiro");
+  echo("\nO número $numero é inteiro\n");
 }else{
-  printf("O número não é inteiro");
+  echo("O número não é inteiro\n");
 }
 
 ?>
