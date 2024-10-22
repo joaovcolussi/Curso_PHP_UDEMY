@@ -8,7 +8,7 @@ $varstring = "Macarrão";
 if (is_int($varnumero1)){
   echo "O primeiro if é um número";
   if (is_int($varnumero1)){
-    $varnumero1*= 2 + $varnumero2;
+    $varnumero1*=  $varnumero2 * 2;
     echo $varnumero2;
     if ($varnumero2 >100){
       echo "$varnumero2 é maior que 100";
