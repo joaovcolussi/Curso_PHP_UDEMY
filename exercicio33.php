@@ -1,9 +1,9 @@
 <?php
-function nomeIdade($nome,$idade){
-  echo "Olá eu sou o $nome e tenho $idade anos";
+function nomeIdade($nome,$idade, $genero){
+  echo "Olá eu sou $genero $nome e tenho $idade anos";
 }
 
 
-nomeIdade("João", "26")
+nomeIdade("João","26", "o")
 
 ?>
